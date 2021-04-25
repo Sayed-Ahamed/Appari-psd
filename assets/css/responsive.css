@@ -1,0 +1,126 @@
+
+@media screen and (max-width: 1199px){
+	.banner .banner-content h2 {
+             font-size: 40px;
+             width: 77%;
+   }
+
+   .banner .app-img {
+        margin-top: -431px;
+        position: absolute;
+        right: 0px;
+  }
+  .banner-btn a{
+  		padding: 23px 28px;
+  }
+  .services{
+  	text-align: center;
+  }
+
+  .price-area .p-btn{
+  			font-size: 14px;
+            padding: 20px 22px;
+  }
+  .latest .single-blog .blog-content .blog-inner p {
+    font-size: 12px;
+    
+} 	.latest .single-blog .blog-content .blog-inner{
+	padding: 26px;
+}
+   .latest .single-blog .blog-content .blog-inner span{
+   	font-size: 13px;
+   }
+
+
+
+      
+}
+
+
+
+@media (max-width: 992px){
+	.banner{
+		    height: 800px;
+	}
+	.counter-up{
+		margin-top: 70px;
+	}
+
+	.price-area .price-box {
+          padding: 13px 11px;
+    }
+    .latest .single-blog .blog-content {
+         padding: 0px 9px;
+    }
+}
+/* Normal desktop :1200px. */
+@media (max-width: 768px) {
+	.banner .banner-space {
+             margin-top: 181px;
+   }
+   .banner .banner-content h2 {
+      font-size: 40px;
+      width: 100%;
+  }
+
+  .banner{
+  	height: 800px;
+  }
+  .latest .single-blog .blog-content{
+  	padding: 0px 100px;
+  }
+}
+
+
+/* Lg Device :992px. */
+@media  (max-width: 576px) {
+
+		.counter-item {
+             padding: 64px 24px;
+             box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+
+
+        }
+
+        .price-area .section-title p{
+        	margin-bottom: 3rem;
+        }
+
+        .subscribe .subscribe-space .subscribe-form form button {
+              position: absolute;
+              top: 14px;
+              padding: 15px 20px;
+          }
+          .work-area .content-space {
+                  margin-top: 0px;
+              }
+              .latest .single-blog .blog-content {
+    				padding: 0px 130px;
+				}
+
+}
+
+@media  (max-width: 430px){
+	.subscribe .subscribe-space .subscribe-form form button {
+              padding: 15px 20px;
+              font-size: 5px;
+              top: 20px;
+          }
+
+          .work-area .app-img img {
+             height: 504px;
+             width: 84%;
+      }
+
+      .work-area .content-space {
+                 margin-top: -13px;
+                 text-align: center;
+          }
+
+         	
+}
+@media  (max-width: 480px){
+		.latest .single-blog .blog-content {
+    				padding: 10px 70px;
+				}
+}

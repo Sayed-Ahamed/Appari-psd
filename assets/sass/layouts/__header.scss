@@ -1,0 +1,55 @@
+/*sticky header*/
+// header{
+// 	position: absolute;
+// 	top: 0;
+// 	left: 0;
+// 	width: 100%;
+// 	z-index: 999;
+// }
+// header{
+// 	&.sticky{
+// 		position: fixed;
+// 	    background: #000;
+//    }
+// }
+
+header{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+}
+
+.header{
+	.header-btn{
+		padding-left: 44px;
+		a{
+			color: #fff;
+			background: #6d5ee0;
+			padding: 20px 54px;
+			border-radius: 30px;
+			font-size: 18px;
+			text-transform: uppercase;
+			font-family: roboto;
+			font-weight: 700;
+		}
+	}
+	.menu {
+		
+		ul{
+			li{
+				display: inline-block;
+				margin: 0px 10px;
+				a{
+					display: block;
+					color: #fff;
+					padding: 6px 0px;
+					line-height: 1;
+					font-size: 18px;
+					font-weight: 700;
+				}
+			}
+		}
+	}
+}
